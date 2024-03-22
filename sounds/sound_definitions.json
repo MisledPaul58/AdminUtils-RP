@@ -20,7 +20,27 @@
             "sounds": [
                 {
                     "name": "sounds/random/menuOpen",
-                    "volume": 0.2,
+                    "volume": 0.3,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "au.success": {
+            "category": "ui",
+            "sounds": [
+                {
+                    "name": "sounds/random/success1",
+                    "volume": 0.3,
+                    "load_on_low_memory": true
+                },
+                {
+                    "name": "sounds/random/success2",
+                    "volume": 0.3,
+                    "load_on_low_memory": true
+                },
+                {
+                    "name": "sounds/random/success3",
+                    "volume": 0.3,
                     "load_on_low_memory": true
                 }
             ]
