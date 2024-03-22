@@ -44,6 +44,21 @@
                     "load_on_low_memory": true
                 }
             ]
+        },
+        "au.error": {
+            "category": "ui",
+            "sounds": [
+                {
+                    "name": "sounds/random/error1",
+                    "volume": 0.3,
+                    "load_on_low_memory": true
+                },
+                {
+                    "name": "sounds/random/error2",
+                    "volume": 0.3,
+                    "load_on_low_memory": true
+                }
+            ]
         }
     }
 }
