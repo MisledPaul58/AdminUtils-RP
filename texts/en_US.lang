@@ -1,0 +1,23 @@
+test.msg=§aSuccess, number §b%1§a and §b%2§a are valid.
+
+back.button.text=Back
+ui.subText.open=Click to open
+ui.subText.edit=Click to edit
+ui.subText.manage=Click to manage
+ui.subText4=
+
+mainMenu.title=§l§4§kkdk§r§l§cAdmin§aUtils §bGUI§4§kkdk
+mainMenu.button1.text=Settings
+mainMenu.button2.text=Admin utils
+mainMenu.button3.text=Plugins
+
+settings.main.title=§l§b§kasd§r§l§aSettings§b§kasd
+settings.main.button1.text=Config
+settings.main.button2.text=???
+
+settings.config.title=§lConfig
+settings.config.input1.name="Thanks for using AdminUtils" message
+
+settings.admins.main.title=§lManage admins
+settings.admins.main.body=Choose an option.
+settings.admins.main.button1.text=
