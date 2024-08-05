@@ -4,7 +4,7 @@ back.button.text=Back
 ui.subText.open=Click to open
 ui.subText.edit=Click to edit
 ui.subText.manage=Click to manage
-ui.subText4=
+ui.submitText.confirm=Confirm
 
 mainMenu.title=§l§4§kkdk§r§l§cAdmin§aUtils §bGUI§4§kkdk
 mainMenu.button1.text=Settings
@@ -13,11 +13,16 @@ mainMenu.button3.text=Plugins
 
 settings.main.title=§l§b§kasd§r§l§aSettings§b§kasd
 settings.main.button1.text=Config
-settings.main.button2.text=???
+settings.main.button2.text=Database
 
 settings.config.title=§lConfig
 settings.config.input1.name="Thanks for using AdminUtils" message
+settings.config.input2.name=Admin tag
+settings.config.input3.name=Owner tag
 
 settings.admins.main.title=§lManage admins
 settings.admins.main.body=Choose an option.
 settings.admins.main.button1.text=
+
+pluginsMain.title=§lPlugins
+pluginsMain.buttons.ranks.text=Ranks
