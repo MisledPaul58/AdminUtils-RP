@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.au_wand.hold_third_person": {
+			"loop": true,
+			"bones": {
+				"wand": {
+					"rotation": [
+						-2.96346,
+						-57.53473,
+						-91.59176
+					],
+					"position": [
+						-0.53546,
+						-0.12721,
+						-6.8418
+					],
+					"scale": 1.1
+				}
+			}
+		},
+		"animation.au_wand.hold_first_person": {
+			"loop": true,
+			"bones": {
+				"wand": {
+					"rotation": [
+						86.69501,
+						-50.26336,
+						110.58789
+					],
+					"position": [
+						-3.699,
+						-3.83775,
+						1.42443
+					]
+				}
+			}
+		}
+	}
+}
