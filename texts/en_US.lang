@@ -5,6 +5,8 @@ ui.subText.open=Click to open
 ui.subText.edit=Click to edit
 ui.subText.manage=Click to manage
 ui.submitText.confirm=Confirm
+ui.confirm.yes=Yes
+ui.confirm.no=No
 
 mainMenu.title=§l§4§kkdk§r§l§cAdmin§aUtils §bGUI§4§kkdk
 mainMenu.button1.text=Settings
