@@ -1,5 +1,7 @@
 test.msg=§aSuccess, number §b%1§a and §b%2§a are valid.
 
+system.reload=§3Reloaded in §b%1ms§3!
+
 back.button.text=Back
 ui.subText.open=Click to open
 ui.subText.edit=Click to edit
