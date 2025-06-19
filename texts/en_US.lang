@@ -5,6 +5,7 @@ system.reload=§3Reloaded in §b%1ms§3!
 permissions.invalidIdentifier=§cError, the identifier you entered is invalid.
 permissions.invalidName=§cError, the display name you entered is invalid.
 permissions.existingGroup=§cError, the group already exists.
+permissions.groupCreated=§aThe group §b%1§a has been created successfully.
 
 
 back.button.text=Back
