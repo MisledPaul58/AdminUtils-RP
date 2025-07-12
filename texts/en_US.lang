@@ -12,9 +12,12 @@ back.button.text=Back
 ui.subText.open=Click to open
 ui.subText.edit=Click to edit
 ui.subText.manage=Click to manage
+ui.subText.toggle=Click to toggle
 ui.submitText.confirm=Confirm
 ui.confirm.yes=Yes
 ui.confirm.no=No
+ui.stateEnabled=§lState:§r §aEnabled§r
+ui.stateDisabled=§lState:§r §cDisabled§r
 
 mainMenu.title=§l§4§kkdk§r§l§cAdmin§aUtils §bGUI§4§kkdk
 mainMenu.button1.text=Settings
@@ -35,4 +38,8 @@ settings.admins.main.body=Choose an option.
 settings.admins.main.button1.text=
 
 pluginsMain.title=§lPlugins
-pluginsMain.buttons.ranks.text=Ranks
+pluginsMain.buttons.permissions.text=Permissions
+
+plugins.permissions.title=§lPermissions
+plugins.permissions.confirmEnable.body=Are you sure you want to enable the plugin §lPermissions§r?
+plugins.permissions.confirmDisable.body=Are you sure you want to disable the plugin §lPermissions§r?
