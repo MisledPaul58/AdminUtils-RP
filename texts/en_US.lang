@@ -4,8 +4,9 @@ system.reload=§3Reloaded in §b%1ms§3!
 
 permissions.invalidIdentifier=§cError, the identifier you entered is invalid.
 permissions.invalidName=§cError, the display name you entered is invalid.
-permissions.existingGroup=§cError, the group already exists.
+permissions.existingGroupError=§cError, the group already exists.
 permissions.groupCreated=§aThe group §b%1§a has been created successfully.
+permissions.groupPropertiesError=§cError, the group properties couldn't be loaded.
 
 
 back.button.text=Back
@@ -43,3 +44,8 @@ pluginsMain.buttons.permissions.text=Permissions
 plugins.permissions.title=§lPermissions
 plugins.permissions.confirmEnable.body=Are you sure you want to enable the plugin §lPermissions§r?
 plugins.permissions.confirmDisable.body=Are you sure you want to disable the plugin §lPermissions§r?
+plugins.permissions.groups=Groups
+plugins.permissions.users=Users
+plugins.permissions.permissions=Permissions
+plugins.permissions.createGroup=Create a new group
+plugins.permissions.group.editProperties=Edit properties
