@@ -2,11 +2,14 @@ test.msg=§aSuccess, number §b%1§a and §b%2§a are valid.
 
 system.reload=§3Reloaded in §b%1ms§3!
 
+ui.genericBuildError=§cError, there was an unexpected error while building the ui.
+
 permissions.invalidIdentifier=§cError, the identifier you entered is invalid.
 permissions.invalidName=§cError, the display name you entered is invalid.
 permissions.existingGroupError=§cError, the group already exists.
 permissions.groupCreated=§aThe group §b%1§a has been created successfully.
 permissions.groupPropertiesError=§cError, the group properties couldn't be loaded.
+
 
 
 back.button.text=Back
@@ -42,10 +45,17 @@ pluginsMain.title=§lPlugins
 pluginsMain.buttons.permissions.text=Permissions
 
 plugins.permissions.title=§lPermissions
-plugins.permissions.confirmEnable.body=Are you sure you want to enable the plugin §lPermissions§r?
-plugins.permissions.confirmDisable.body=Are you sure you want to disable the plugin §lPermissions§r?
+plugins.permissions.confirmEnable.body=Are you sure you want to §aenable§r the plugin §lPermissions§r?
+plugins.permissions.confirmDisable.body=Are you sure you want to §cdisable§r the plugin §lPermissions§r?
 plugins.permissions.groups=Groups
 plugins.permissions.users=Users
 plugins.permissions.permissions=Permissions
-plugins.permissions.createGroup=Create a new group
-plugins.permissions.group.editProperties=Edit properties
+plugins.permissions.createNewGroup=Create a new group
+plugins.permissions.editProperties=Edit properties
+plugins.permissions.managePermissions=Manage permissions
+plugins.permissions.manageInheritance=Manage inheritance
+plugins.permissions.createGroup=Create group
+plugins.permissions.identifier=Identifier
+plugins.permissions.displayName=Display name
+plugins.permissions.weight=Weight
+plugins.permissions.inheritsFrom=Inherits from:
