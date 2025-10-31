@@ -59,3 +59,4 @@ plugins.permissions.identifier=Identifier
 plugins.permissions.displayName=Display name
 plugins.permissions.weight=Weight
 plugins.permissions.inheritsFrom=Inherits from:
+plugins.permissions.noGroups=No groups found
