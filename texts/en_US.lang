@@ -7,7 +7,8 @@ ui.genericBuildError=§cError, there was an unexpected error while building the 
 permissions.invalidIdentifier=§cError, the identifier you entered is invalid.
 permissions.invalidName=§cError, the display name you entered is invalid.
 permissions.existingGroupError=§cError, the group already exists.
-permissions.groupCreated=§aThe group §b%1§a has been created successfully.
+permissions.groupCreated=§aThe group §b%1§r §ahas been created successfully.
+permissions.addParentFail=§cHowever, the following parents couldn't be added, make sure they exist and they don't inherit each other:
 permissions.groupPropertiesError=§cError, the group properties couldn't be loaded.
 
 
@@ -58,5 +59,7 @@ plugins.permissions.createGroup=Create group
 plugins.permissions.identifier=Identifier
 plugins.permissions.displayName=Display name
 plugins.permissions.weight=Weight
-plugins.permissions.inheritsFrom=Inherits from:
+plugins.permissions.inheritsFrom=Parent:
+plugins.permissions.inheritsFromLabel=(You can add more than one inheritance later)
 plugins.permissions.noGroups=No groups found
+plugins.permissions.none=§lNone§r
