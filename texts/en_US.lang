@@ -19,6 +19,7 @@ ui.subText.edit=Click to edit
 ui.subText.manage=Click to manage
 ui.subText.toggle=Click to toggle
 ui.submitText.confirm=Confirm
+ui.submitText.save=Save
 ui.confirm.yes=Yes
 ui.confirm.no=No
 ui.stateEnabled=§lState:§r §aEnabled§r
@@ -63,3 +64,5 @@ plugins.permissions.inheritsFrom=Parent:
 plugins.permissions.inheritsFromLabel=(You can add more than one inheritance later)
 plugins.permissions.noGroups=No groups found
 plugins.permissions.none=§lNone§r
+
+plugins.permissions.group.propertiesTitle=§l§b%1's§r §r§lproperties
