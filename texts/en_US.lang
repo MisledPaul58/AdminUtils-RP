@@ -3,6 +3,7 @@ test.msg=§aSuccess, number §b%1§a and §b%2§a are valid.
 system.reload=§3Reloaded in §b%1ms§3!
 
 ui.genericBuildError=§cError, there was an unexpected error while building the ui.
+ui.saveSuccess=§aSaved successfully.
 
 permissions.invalidIdentifier=§cError, the identifier you entered is invalid.
 permissions.invalidName=§cError, the display name you entered is invalid.
@@ -65,4 +66,6 @@ plugins.permissions.inheritsFromLabel=(You can add more than one inheritance lat
 plugins.permissions.noGroups=No groups found
 plugins.permissions.none=§lNone§r
 
-plugins.permissions.group.propertiesTitle=§l§b%1's§r §r§lproperties
+plugins.permissions.group.propertiesTitle=§l§b%1's§r §lproperties
+plugins.permissions.group.permissionsTitle=§l§b%1's§r §lpermissions
+plugins.permissions.group.addPermission=Add a new permission
