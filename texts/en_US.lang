@@ -7,10 +7,13 @@ ui.saveSuccess=§aSaved successfully.
 
 permissions.invalidIdentifier=§cError, the identifier you entered is invalid.
 permissions.invalidName=§cError, the display name you entered is invalid.
+permissions.invalidPermission=§cError, the permission you entered is invalid.
 permissions.existingGroupError=§cError, the group already exists.
 permissions.groupCreated=§aThe group §b%1§r §ahas been created successfully.
 permissions.addParentFail=§cHowever, the following parents couldn't be added, make sure they exist and they don't inherit each other:
 permissions.groupPropertiesError=§cError, the group properties couldn't be loaded.
+permissions.addPermSuccess=§aThe permission §l§b%1§r§a was added successfully with the value %2§a.
+permissions.groupDeleted=§aThe group §b%1§r §ahas been deleted sucessfully.
 
 
 
@@ -57,6 +60,8 @@ plugins.permissions.createNewGroup=Create a new group
 plugins.permissions.editProperties=Edit properties
 plugins.permissions.managePermissions=Manage permissions
 plugins.permissions.manageInheritance=Manage inheritance
+plugins.permissions.deleteGroup=Delete this group
+plugins.permissions.confirmDeleteGroup=Are you sure you want to §cpermanently§r delete this group? This action cannot be reverted.
 plugins.permissions.createGroup=Create group
 plugins.permissions.identifier=Identifier
 plugins.permissions.displayName=Display name
@@ -65,7 +70,17 @@ plugins.permissions.inheritsFrom=Parent:
 plugins.permissions.inheritsFromLabel=(You can add more than one inheritance later)
 plugins.permissions.noGroups=No groups found
 plugins.permissions.none=§lNone§r
+plugins.permissions.addPermission=Add permission to §l%1§r
+plugins.permissions.addPermissionName=Enter the new permission or a wildcard:
+plugins.permissions.addPermissionLabel=Remember you can use wildcards with a * at the end, for example: au.*\n\nHere you have a list of all basic permissions for reference.
+plugins.permissions.permissionList=Permission list
+plugins.permissions.addPermissionSubmit=Add permission node
+plugins.permissions.permissionFalseTrue=§l§cFalse§b/§aTrue
+plugins.permissions.value=Value
+plugins.permissions.true=§atrue§r
+plugins.permissions.false=§cfalse§r
 
 plugins.permissions.group.propertiesTitle=§l§b%1's§r §lproperties
+plugins.permissions.group.identifierLabel=Identifier: %1§r\n
 plugins.permissions.group.permissionsTitle=§l§b%1's§r §lpermissions
 plugins.permissions.group.addPermission=Add a new permission
