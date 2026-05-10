@@ -14,6 +14,9 @@ permissions.addParentFail=§cHowever, the following parents couldn't be added, m
 permissions.groupPropertiesError=§cError, the group properties couldn't be loaded.
 permissions.addPermSuccess=§aThe permission §l§b%1§r§a was added successfully with the value %2§a.
 permissions.groupDeleted=§aThe group §b%1§r §ahas been deleted sucessfully.
+permissions.permValChangeSuccess=§aValue changed sucessfully.
+permissions.holderNotFound=§cError, the group or user couldn't be found.
+permissions.permValChangeError=§cError, the permission §l%1§r§c couldn't be changed.
 
 
 
@@ -79,8 +82,10 @@ plugins.permissions.permissionFalseTrue=§l§cFalse§b/§aTrue
 plugins.permissions.value=Value
 plugins.permissions.true=§atrue§r
 plugins.permissions.false=§cfalse§r
+plugins.permissions.editPermission=§lEdit §b%1§r
+plugins.permissions.deletePermission=Delete this permission
 
 plugins.permissions.group.propertiesTitle=§l§b%1's§r §lproperties
-plugins.permissions.group.identifierLabel=Identifier: %1§r\n
+plugins.permissions.group.identifierLabel=§lIdentifier:§r %1§r\n
 plugins.permissions.group.permissionsTitle=§l§b%1's§r §lpermissions
 plugins.permissions.group.addPermission=Add a new permission

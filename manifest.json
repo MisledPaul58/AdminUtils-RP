@@ -31,6 +31,9 @@
 			]
 		}
 	],
+	"capabilities": [
+		"pbr"
+	],
 	"dependencies": [
 		{
 			"uuid": "9bf627d5-d1e0-4195-b581-897a2a34f372",
