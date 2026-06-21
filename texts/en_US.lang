@@ -16,8 +16,13 @@ permissions.addPermSuccess=§aThe permission §l§b%1§r§a was added successful
 permissions.groupDeleted=§aThe group §b%1§r §ahas been deleted sucessfully.
 permissions.permValChangeSuccess=§aValue changed sucessfully.
 permissions.holderNotFound=§cError, the group or user couldn't be found.
-permissions.permValChangeError=§cError, the permission §l%1§r§c couldn't be changed.
+permissions.permValChangeError=§cError, the permission couldn't be changed.
+permissions.permDeleteSuccess=§aThe permission §b%1§a was deleted successfully.
+permissions.permNotFound=§cError, the permission couldn't be found.
 
+permissions.inheritance.errorFindParent=§cError, couldn't find the selected group.
+permissions.inheritance.parentAdded=§aThe group §b%1§r§a was added successfully as a parent to §b%2§r§a.
+permissions.inheritance.parentRemoved=§aThe parent group §b%1§r§a was removed successfully from §b%2§r§a.
 
 
 back.button.text=Back
@@ -27,6 +32,7 @@ ui.subText.manage=Click to manage
 ui.subText.toggle=Click to toggle
 ui.submitText.confirm=Confirm
 ui.submitText.save=Save
+ui.submitText.add=Add
 ui.confirm.yes=Yes
 ui.confirm.no=No
 ui.stateEnabled=§lState:§r §aEnabled§r
@@ -78,14 +84,25 @@ plugins.permissions.addPermissionName=Enter the new permission or a wildcard:
 plugins.permissions.addPermissionLabel=Remember you can use wildcards with a * at the end, for example: au.*\n\nHere you have a list of all basic permissions for reference.
 plugins.permissions.permissionList=Permission list
 plugins.permissions.addPermissionSubmit=Add permission node
-plugins.permissions.permissionFalseTrue=§l§cFalse§b/§aTrue
+plugins.permissions.permissionFalseTrue=§cFalse§b/§aTrue
 plugins.permissions.value=Value
 plugins.permissions.true=§atrue§r
 plugins.permissions.false=§cfalse§r
 plugins.permissions.editPermission=§lEdit §b%1§r
 plugins.permissions.deletePermission=Delete this permission
+plugins.permissions.deletePermTitle=Delete §b%1§r
+plugins.permissions.confirmDeletePerm=Are you sure you want to §cdelete§r the permission §a%1§r from §b%2§r?
+plugins.permissions.generic.title=§l§b%1's§r §lpermissions
+plugins.permissions.generic.addNewPermission=Add a new permission
 
 plugins.permissions.group.propertiesTitle=§l§b%1's§r §lproperties
 plugins.permissions.group.identifierLabel=§lIdentifier:§r %1§r\n
-plugins.permissions.group.permissionsTitle=§l§b%1's§r §lpermissions
-plugins.permissions.group.addPermission=Add a new permission
+
+plugins.permissions.inheritance.title=§l§b%1's§r §linheritance
+plugins.permissions.inheritance.addNewParent=Add a new parent group
+plugins.permissions.inheritance.addParentTitle=Add a new parent
+plugins.permissions.inheritance.availableParents=Available parents
+plugins.permissions.inheritance.manageParentTitle=Manage parent: §l§b%1§r
+plugins.permissions.inheritance.editGroup=Edit group
+plugins.permissions.inheritance.removeParent=Remove parent
+plugins.permissions.inheritance.confirmRemoveParent=Are you sure you want to §cremove§r the parent §a%1§r from §b%2§r?
