@@ -1,9 +1,14 @@
-test.msg=§aSuccess, number §b%1§a and §b%2§a are valid.
-
 system.reload=§3Reloaded in §b%1ms§3!
 
 ui.genericBuildError=§cError, there was an unexpected error while building the ui.
 ui.saveSuccess=§aSaved successfully.
+
+adminutils.introPage1=§l§4§kabc§r§l§cAdmin§aUtils§4§kabc§r\n\n§lHi!\n\n§rThanks for downloading §cAdmin§aUtils§r.\nTo get started, §llook for the §r§o§dAdmin's wand§r\nin the sword category of your §linventory§r in Creative mode or use this command on yourself:\n/give @s au:wand
+adminutils.introPage2=After that, simply use the wand on your hand by right clicking, for example, to open the admin panel!\n------------------\n§l§cWhat to do if nothing happens:\n§r* Make sure you have enabled the §lBeta APIs experiment§r in your world/realm/server.
+adminutils.introPage3=* Make sure you have downloaded §lboth behavior pack (BP)\nand resource pack (RP) separately.§r
+adminutils.startupMsg=§l§4§kqww§r§l§bThanks for using AdminUtils! §aMade by §6MisledPaul58§4§kqww
+
+settings.resetConfigSuccess=§aThe §bconfig§a has been reset successfully.
 
 permissions.invalidIdentifier=§cError, the identifier you entered is invalid.
 permissions.invalidName=§cError, the display name you entered is invalid.
@@ -44,8 +49,10 @@ mainMenu.button2.text=Admin utils
 mainMenu.button3.text=Plugins
 
 settings.main.title=§l§b§kasd§r§l§aSettings§b§kasd
-settings.main.button1.text=Config
-settings.main.button2.text=Database
+settings.main.resetConfig=Reset config to default
+settings.main.confirmResetConfig=Are you sure you want to §creset§r all the config values to default? This will not affect the database, etc.
+settings.main.config=Config
+settings.main.database=Database
 
 settings.config.title=§lConfig
 settings.config.input1.name="Thanks for using AdminUtils" message
@@ -84,7 +91,7 @@ plugins.permissions.addPermissionName=Enter the new permission or a wildcard:
 plugins.permissions.addPermissionLabel=Remember you can use wildcards with a * at the end, for example: au.*\n\nHere you have a list of all basic permissions for reference.
 plugins.permissions.permissionList=Permission list
 plugins.permissions.addPermissionSubmit=Add permission node
-plugins.permissions.permissionFalseTrue=§cFalse§b/§aTrue
+plugins.permissions.permissionFalseTrue=§cFalse §b/ §aTrue
 plugins.permissions.value=Value
 plugins.permissions.true=§atrue§r
 plugins.permissions.false=§cfalse§r
@@ -97,6 +104,9 @@ plugins.permissions.generic.addNewPermission=Add a new permission
 
 plugins.permissions.group.propertiesTitle=§l§b%1's§r §lproperties
 plugins.permissions.group.identifierLabel=§lIdentifier:§r %1§r\n
+
+plugins.permissions.user.online=§l§aOnline:§r\n
+plugins.permissions.user.offline=§l§cOffline:§r\n
 
 plugins.permissions.inheritance.title=§l§b%1's§r §linheritance
 plugins.permissions.inheritance.addNewParent=Add a new parent group
