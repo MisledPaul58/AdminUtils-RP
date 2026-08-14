@@ -3,9 +3,9 @@ system.reload=§3Reloaded in §b%1ms§3!
 ui.genericBuildError=§cError, there was an unexpected error while building the ui.
 ui.saveSuccess=§aSaved successfully.
 
-adminutils.introPage1=§l§4§kabc§r§l§cAdmin§aUtils§4§kabc§r\n\n§lHi!\n\n§rThanks for downloading §cAdmin§aUtils§r.\nTo get started, §llook for the §r§o§dAdmin's wand§r\nin the sword category of your §linventory§r in Creative mode or use this command on yourself:\n/give @s au:wand
-adminutils.introPage2=After that, simply use the wand on your hand by right clicking, for example, to open the admin panel!\n------------------\n§l§cWhat to do if nothing happens:\n§r* Make sure you have enabled the §lBeta APIs experiment§r in your world/realm/server.
-adminutils.introPage3=* Make sure you have downloaded §lboth behavior pack (BP)\nand resource pack (RP) separately.§r
+adminutils.introPage1=   §l§4§kabc§r§l§cAdmin§aUtils§4§kabc§r\n\n§lHi!\n\n§rThanks for downloading §cAdmin§aUtils§r.\nTo get started, §llook for the §r§o§dAdmin's wand§r\nin the sword category of your §linventory§r in Creative mode or use this command on yourself:\n/give @s au:wand
+adminutils.introPage2=After that, use\n§l§3/tag @s add -auadmin§r\nto add yourself as an admin, in order to use the admin wand.\nNow, you can use it simply by §lright clicking or holding\nyour touch screen!
+adminutils.introPage3=------------------\n§l§cWhat to do if the wand doesn't work:\n§r* Make sure you have enabled the §lBeta APIs experiment§r in your world/realm/server.\n\n* Make sure you have downloaded §lboth behavior pack (BP)\nand resource pack (RP) separately.§r
 adminutils.startupMsg=§l§4§kqww§r§l§bThanks for using AdminUtils! §aMade by §6MisledPaul58§4§kqww
 
 settings.resetConfigSuccess=§aThe §bconfig§a has been reset successfully.
