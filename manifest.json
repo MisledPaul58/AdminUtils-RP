@@ -6,12 +6,12 @@
 		]
 	},
 	"header": {
-		"name": "§l§o§cAdmin§aUtils §b[26.30]",
+		"name": "§l§o§cAdmin§aUtils §b[26.40]",
 		"description": "§l§sAdminUtils offers a wide range of tools to help you control and improve your world/server.\n§l§cYou can also troll your friends with some tools!\n§l§o§6Enjoy!",
 		"min_engine_version": [
 			1,
 			26,
-			30
+			40
 		],
 		"uuid": "7477870a-d721-44a1-beb6-5b39f9049e27",
 		"version": [
