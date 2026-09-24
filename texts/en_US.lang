@@ -4,8 +4,8 @@ ui.genericBuildError=§cError, there was an unexpected error while building the 
 ui.saveSuccess=§aSaved successfully.
 
 adminutils.introPage1=   §l§4§kabc§r§l§cAdmin§aUtils§4§kabc§r\n\n§lHi!\n\n§rThanks for downloading §cAdmin§aUtils§r.\nTo get started, §llook for the §r§o§dAdmin's wand§r\nin the sword category of your §linventory§r in Creative mode or use this command on yourself:\n/give @s au:wand
-adminutils.introPage2=After that, use\n§l§3/tag @s add -auadmin§r\nto add yourself as an admin, in order to use the admin wand.\nNow, you can use it simply by §lright clicking or holding\nyour touch screen!
-adminutils.introPage3=------------------\n§l§cWhat to do if the wand doesn't work:\n§r* Make sure you have enabled the §lBeta APIs experiment§r in your world/realm/server.\n\n* Make sure you have downloaded §lboth behavior pack (BP)\nand resource pack (RP) separately.§r
+adminutils.introPage2=After that, use\n§l/tag @s add -auadmin§r\nto add yourself as an admin, in order to use the admin wand.\nNow, you can use it simply by §lright clicking or holding\nyour touch screen!
+adminutils.introPage3=------------------\n§l§cWhat to do if the wand doesn't work:\n§r* Make sure you have enabled the §lBeta APIs experiment§r in your world/realm/server.\n\n* Make sure you have downloaded §lboth the behavior pack (BP)\nand resource pack (RP) separately.§r
 adminutils.startupMsg=§l§4§kqww§r§l§bThanks for using AdminUtils! §aMade by §6MisledPaul58§4§kqww
 
 settings.resetConfigSuccess=§aThe §bconfig§a has been reset successfully.
@@ -30,6 +30,7 @@ permissions.inheritance.parentAdded=§aThe group §b%1§r§a was added successfu
 permissions.inheritance.parentRemoved=§aThe parent group §b%1§r§a was removed successfully from §b%2§r§a.
 
 
+
 back.button.text=Back
 ui.subText.open=Click to open
 ui.subText.edit=Click to edit
@@ -42,6 +43,7 @@ ui.confirm.yes=Yes
 ui.confirm.no=No
 ui.stateEnabled=§lState:§r §aEnabled§r
 ui.stateDisabled=§lState:§r §cDisabled§r
+ui.typePlayer=Type player
 
 mainMenu.title=§l§4§kkdk§r§l§cAdmin§aUtils §bGUI§4§kkdk
 mainMenu.button1.text=Settings
@@ -52,6 +54,7 @@ settings.main.title=§l§b§kasd§r§l§aSettings§b§kasd
 settings.main.resetConfig=Reset config to default
 settings.main.confirmResetConfig=Are you sure you want to §creset§r all the config values to default? This will not affect the database, etc.
 settings.main.config=Config
+settings.main.admins=Admins
 settings.main.database=Database
 
 settings.config.title=§lConfig
@@ -59,9 +62,20 @@ settings.config.input1.name="Thanks for using AdminUtils" message
 settings.config.input2.name=Admin tag
 settings.config.input3.name=Owner tag
 
-settings.admins.main.title=§lManage admins
-settings.admins.main.body=Choose an option.
-settings.admins.main.button1.text=
+settings.admins.title=§lAdmins
+settings.admins.add=Add an admin
+settings.admins.remove=Remove an admin
+settings.admins.showAll=See admins
+
+au.banButton=§lBan or unban menu
+au.jailButton=§lJail menu
+au.vanishButton=§lVanish menu
+au.freezeButton=§lFreeze menu
+au.seeInvButton=§lSee an inventory
+au.freecamButton=§lFreecam menu
+au.projectilePowersButton=§lProjectile powers
+au.killButton=§lKill a player
+au.launchButton=§lLaunch a player
 
 pluginsMain.title=§lPlugins
 pluginsMain.buttons.permissions.text=Permissions
@@ -88,7 +102,7 @@ plugins.permissions.noGroups=No groups found
 plugins.permissions.none=§lNone§r
 plugins.permissions.addPermission=Add permission to §l%1§r
 plugins.permissions.addPermissionName=Enter the new permission or a wildcard:
-plugins.permissions.addPermissionLabel=Remember you can use wildcards with a * at the end, for example: au.*\n\nHere you have a list of all basic permissions for reference.
+plugins.permissions.addPermissionLabel=Remember that you can use wildcards with a * at the end, for example: ui.settings.*\nThis wildcard would include ui.settings.resetConfig, ui.settings.config, and every permission that begins with ui.settings.\n\nIn this menu you can also type just the index number of the permission.\n\nHere you have a list of all basic permissions for reference.
 plugins.permissions.permissionList=Permission list
 plugins.permissions.addPermissionSubmit=Add permission node
 plugins.permissions.permissionFalseTrue=§cFalse §b/ §aTrue
@@ -96,6 +110,7 @@ plugins.permissions.value=Value
 plugins.permissions.true=§atrue§r
 plugins.permissions.false=§cfalse§r
 plugins.permissions.editPermission=§lEdit §b%1§r
+plugins.permissions.editPermissionLabel=§lPermission:§r %1
 plugins.permissions.deletePermission=Delete this permission
 plugins.permissions.deletePermTitle=Delete §b%1§r
 plugins.permissions.confirmDeletePerm=Are you sure you want to §cdelete§r the permission §a%1§r from §b%2§r?
