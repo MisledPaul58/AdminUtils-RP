@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [dev, release]
+  pull_request:
+    branches: [dev, release]
+  workflow_dispatch:
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Package .mcpack
+        run: npm run package
+
+      - name: Upload addon artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AdminUtils-RP
+          path: dist/*.mcpack
+          if-no-files-found: error

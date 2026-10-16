@@ -1,0 +1,21 @@
+{
+  "name": "adminutils-rp",
+  "version": "1.2.0",
+  "description": "AdminUtils resource pack - textures, models and UI for the AdminUtils add-on.",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "author": "MisledPaul58",
+  "scripts": {
+    "clean": "node tools/clean.mjs",
+    "inject-version": "node tools/inject-version.mjs",
+    "package": "node tools/inject-version.mjs && node tools/pack.mjs",
+    "package:dark": "node tools/inject-version.mjs && node tools/pack.mjs dark",
+    "package:light": "node tools/inject-version.mjs && node tools/pack.mjs light"
+  },
+  "devDependencies": {
+    "archiver": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

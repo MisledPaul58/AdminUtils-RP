@@ -1,0 +1,13 @@
+# Dependencies (installed from package-lock.json)
+node_modules/
+
+# IDE / editor
+.idea/
+*.iml
+
+# Packaged artifacts
+/dist/
+
+# OS cruft
+.DS_Store
+Thumbs.db
