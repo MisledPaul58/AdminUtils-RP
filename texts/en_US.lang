@@ -2,6 +2,7 @@ system.reload=§3Reloaded in §b%1ms§3!
 
 ui.genericBuildError=§cError, there was an unexpected error while building the ui.
 ui.saveSuccess=§aSaved successfully.
+ui.invalidUsername=§cThe username you entered is invalid.
 
 adminutils.introPage1=   §l§4§kabc§r§l§cAdmin§aUtils§4§kabc§r\n\n§lHi!\n\n§rThanks for downloading §cAdmin§aUtils§r.\nTo get started, §llook for the §r§o§dAdmin's wand§r\nin the sword category of your §linventory§r in Creative mode or use this command on yourself:\n/give @s au:wand
 adminutils.introPage2=After that, use\n§l/tag @s add -auadmin§r\nto add yourself as an admin, in order to use the admin wand.\nNow, you can use it simply by §lright clicking or holding\nyour touch screen!
@@ -9,6 +10,10 @@ adminutils.introPage3=------------------\n§l§cWhat to do if the wand doesn't w
 adminutils.startupMsg=§l§4§kqww§r§l§bThanks for using AdminUtils! §aMade by §6MisledPaul58§4§kqww
 
 settings.resetConfigSuccess=§aThe §bconfig§a has been reset successfully.
+settings.alreadyAdmin=§cThe player §4%1§r§c is already an admin.
+settings.addAdminSuccess=§aThe player §b%1§r§a was added successfully as an admin.
+settings.notAdmin=§cThe player §4%1§r§c is not an admin.
+settings.removeAdminSuccess=§aThe admin §b%1§r§a has been removed successfully.
 
 permissions.invalidIdentifier=§cError, the identifier you entered is invalid.
 permissions.invalidName=§cError, the display name you entered is invalid.
@@ -31,6 +36,7 @@ permissions.inheritance.parentRemoved=§aThe parent group §b%1§r§a was remove
 
 
 
+
 back.button.text=Back
 ui.subText.open=Click to open
 ui.subText.edit=Click to edit
@@ -39,23 +45,25 @@ ui.subText.toggle=Click to toggle
 ui.submitText.confirm=Confirm
 ui.submitText.save=Save
 ui.submitText.add=Add
+ui.submitText.next=Next
 ui.confirm.yes=Yes
 ui.confirm.no=No
 ui.stateEnabled=§lState:§r §aEnabled§r
 ui.stateDisabled=§lState:§r §cDisabled§r
 ui.typePlayer=Type player
+ui.player=Player
 
 mainMenu.title=§l§4§kkdk§r§l§cAdmin§aUtils §bGUI§4§kkdk
 mainMenu.button1.text=Settings
 mainMenu.button2.text=Admin utils
 mainMenu.button3.text=Plugins
 
-settings.main.title=§l§b§kasd§r§l§aSettings§b§kasd
-settings.main.resetConfig=Reset config to default
-settings.main.confirmResetConfig=Are you sure you want to §creset§r all the config values to default? This will not affect the database, etc.
-settings.main.config=Config
-settings.main.admins=Admins
-settings.main.database=Database
+settings.title=§l§b§kasd§r§l§aSettings§b§kasd
+settings.resetConfig=Reset config to default
+settings.confirmResetConfig=Are you sure you want to §creset§r all the config values to default? This will not affect the database, etc.
+settings.config=Config
+settings.admins=Admins
+settings.database=Database
 
 settings.config.title=§lConfig
 settings.config.input1.name="Thanks for using AdminUtils" message
@@ -64,8 +72,10 @@ settings.config.input3.name=Owner tag
 
 settings.admins.title=§lAdmins
 settings.admins.add=Add an admin
+settings.admins.add.confirm=Are you sure you want to add §b%1§r as an admin?
 settings.admins.remove=Remove an admin
-settings.admins.showAll=See admins
+settings.admins.remove.confirm=Are you sure you want to remove the admin §b%1§r?
+settings.admins.see=See admins
 
 au.banButton=§lBan or unban menu
 au.jailButton=§lJail menu
@@ -106,7 +116,7 @@ plugins.permissions.addPermissionLabel=Remember that you can use wildcards with 
 plugins.permissions.addPermissionFromScratch=Write the permission from scratch
 plugins.permissions.addPermissionFromList=Choose from the list by index
 plugins.permissions.addPermissionIndexName=Enter the index of the permission you want to add:
-plugins.permissions.addPermissionIndexSubmit=Next
+ui.submitText.next=Next
 plugins.permissions.permissionList=Permission list
 plugins.permissions.addPermissionSubmit=Add permission node
 plugins.permissions.permissionFalseTrue=§cFalse §b/ §aTrue
