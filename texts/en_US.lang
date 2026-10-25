@@ -52,6 +52,7 @@ ui.stateEnabled=§lState:§r §aEnabled§r
 ui.stateDisabled=§lState:§r §cDisabled§r
 ui.typePlayer=Type player
 ui.player=Player
+ui.players=Players:
 
 mainMenu.title=§l§4§kkdk§r§l§cAdmin§aUtils §bGUI§4§kkdk
 mainMenu.button1.text=Settings
@@ -63,7 +64,7 @@ settings.resetConfig=Reset config to default
 settings.confirmResetConfig=Are you sure you want to §creset§r all the config values to default? This will not affect the database, etc.
 settings.config=Config
 settings.admins=Admins
-settings.database=Database
+settings.databases=Databases
 
 settings.config.title=§lConfig
 settings.config.input1.name="Thanks for using AdminUtils" message
@@ -76,6 +77,8 @@ settings.admins.add.confirm=Are you sure you want to add §b%1§r as an admin?
 settings.admins.remove=Remove an admin
 settings.admins.remove.confirm=Are you sure you want to remove the admin §b%1§r?
 settings.admins.see=See admins
+
+settings.database.title=§lDatabases
 
 au.banButton=§lBan or unban menu
 au.jailButton=§lJail menu
